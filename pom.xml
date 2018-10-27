@@ -71,7 +71,6 @@
         </dependency>
         
         <!--13 CVE-2014-0109 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0109 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws/2.7.0 -->
         <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
         <dependency>
             <groupId>org.apache.cxf</groupId>
@@ -87,9 +86,9 @@
             <version>4.8.2</version>
         </dependency> 
         
+        <!--Travis CI cant Java7 https://github.com/travis-ci/travis-ci/issues/7884 -->
         <!--8 CVE-2013-0443 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0443 -->
         <!--10 CVE-2013-2448 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2448 -->
-        <!--Travis CI cant Java7 https://github.com/travis-ci/travis-ci/issues/7884 -->
         <dependency>
             <groupId></groupId>
             <artifactId></artifactId>
