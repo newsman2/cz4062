@@ -36,5 +36,11 @@
             <version>4.8.2</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.inversoft/prime-jwt -->
+        <dependency>
+            <groupId>com.inversoft</groupId>
+            <artifactId>prime-jwt</artifactId>
+            <version>1.3.0</version>
+        </dependency>
     </dependencies>
 </project>
