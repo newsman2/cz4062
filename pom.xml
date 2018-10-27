@@ -42,5 +42,12 @@
             <artifactId>prime-jwt</artifactId>
             <version>1.3.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/apache-tomcat -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>apache-tomcat</artifactId>
+            <version>5.5.27</version>
+        </dependency>
+        
     </dependencies>
 </project>
