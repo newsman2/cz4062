@@ -38,7 +38,6 @@
         </dependency>
         
         <!--11 CVE-2013-4286 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4286 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina/7.0.42 -->
         <!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
@@ -48,7 +47,6 @@
         
         <!--4 CVE-2010-1157 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1157 -->
         <!-- https://mvnrepository.com/artifact/org.apache.tomcat/juli -->
-        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/juli -->
         <dependency>
             <groupId>org.apache.tomcat</groupId>
             <artifactId>juli</artifactId>
@@ -57,7 +55,6 @@
         
         <!--5 CVE-2011-2087 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2087 -->
         <!--9 CVE-2013-2115 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2115 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core/2.1.8-->
         <!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
         <dependency>
             <groupId>org.apache.struts</groupId>
@@ -66,7 +63,6 @@
         </dependency>
         
         <!--6 CVE-2012-0803 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0803 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws/2.4.5 -->
         <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
         <dependency>
             <groupId>org.apache.cxf</groupId>
@@ -84,7 +80,6 @@
         </dependency>
         
         <!--7 CVE-2012-5812 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5812 -->
-        <!-- https://mvnrepository.com/artifact/ch.acra/acra/4.8.2 -->
         <!-- https://mvnrepository.com/artifact/ch.acra/acra -->
         <dependency>
             <groupId>ch.acra</groupId>
@@ -101,7 +96,6 @@
             <version></version>
         </dependency> 
         <!--12 CVE-2013-2448 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2448 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.solr/solr-core/4.3.0 -->
         <!-- https://mvnrepository.com/artifact/org.apache.solr/solr-core -->
         <dependency>
             <groupId>org.apache.solr</groupId>
