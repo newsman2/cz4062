@@ -89,11 +89,11 @@
         <!--Travis CI cant Java7 https://github.com/travis-ci/travis-ci/issues/7884 -->
         <!--8 CVE-2013-0443 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0443 -->
         <!--10 CVE-2013-2448 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2448 -->
-        <dependency>
+        <!--<dependency>
             <groupId></groupId>
             <artifactId></artifactId>
             <version></version>
-        </dependency> 
+        </dependency>--> 
         
         <!--12 CVE-2013-2448 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2448 -->
         <!-- https://mvnrepository.com/artifact/org.apache.solr/solr-core -->
