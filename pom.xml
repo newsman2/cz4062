@@ -45,6 +45,14 @@
 			<artifactId>tomcat-catalina</artifactId>
 			<version>7.0.42</version>
 		</dependency>
+		
+		<!--41 CVE-2017-6056 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6056 -->
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+		<dependency>
+		    <groupId>org.apache.tomcat</groupId>
+		    <artifactId>tomcat-catalina</artifactId>
+		    <version>8.5.34</version>
+		</dependency>		
 
 		<!--4 CVE-2010-1157 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1157 -->
 		<!--19 CVE-2016-0714 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0714 -->
@@ -65,7 +73,15 @@
 			<groupId>org.apache.struts</groupId>
 			<artifactId>struts2-core</artifactId>
 			<version>2.1.8</version>
+		</dependency>		
+		<!--30 CVE-2016-4438 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-4438-->
+		<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-rest-plugin -->
+		<dependency>
+		    <groupId>org.apache.struts</groupId>
+		    <artifactId>struts2-rest-plugin</artifactId>
+		    <version>2.3.20</version>
 		</dependency>
+		
 
 		<!--6 CVE-2012-0803 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-0803 -->
 		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
@@ -84,6 +100,21 @@
 			<version>2.7.0</version>
 		</dependency>
 
+		<!--37 CVE-2017-12624 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12624 -->		
+		<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf -->
+		<dependency>
+		    <groupId>org.apache.cxf</groupId>
+		    <artifactId>cxf</artifactId>
+		    <version>3.1.14</version>
+		    <type>pom</type>
+		</dependency>		
+		<!-- https://mvnrepository.com/artifact/javax.xml.ws/jaxws-api -->
+		<dependency>
+		    <groupId>javax.xml.ws</groupId>
+		    <artifactId>jaxws-api</artifactId>
+		    <version>2.3.0</version>
+		</dependency>		
+
 		<!--7 CVE-2012-5812 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5812 -->
 		<!-- https://mvnrepository.com/artifact/ch.acra/acra -->
 		<dependency>
@@ -92,9 +123,10 @@
 			<version>4.8.2</version>
 		</dependency>
 
-		<!--Travis CI cant Java7 https://github.com/travis-ci/travis-ci/issues/7884 -->
+		<!--Java SE/RE issues -->
 		<!--8 CVE-2013-0443 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0443 -->
 		<!--10 CVE-2013-2448 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2448 -->
+		<!--27 CVE-2013-4002 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-4002 -->
 		<!--<dependency> <groupId></groupId> <artifactId></artifactId> <version></version> 
 			</dependency> -->
 
@@ -109,6 +141,7 @@
 		<!--14 CVE-2014-1506 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-1506 -->
 		<!--20 CVE-2016-2810 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-2810 -->
 		<!--21 CVE-2016-5298 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5298 -->
+		<!--40 CVE-2017-5392 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5392 -->
 		<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
 		<dependency>
 			<groupId>com.atlassian.browsers</groupId>
@@ -184,5 +217,118 @@
 			<version>5.0</version>
 		</dependency>
 
+		<!--28 CVE-2014-8110 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-8110 -->		
+		<!-- https://mvnrepository.com/artifact/org.apache.activemq/activemq-all -->
+		<dependency>
+		    <groupId>org.apache.activemq</groupId>
+		    <artifactId>activemq-all</artifactId>
+		    <version>5.10.0</version>
+		</dependency>
+
+		<!--29 CVE-2016-0793 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0793 -->	
+		<!-- https://mvnrepository.com/artifact/org.wildfly/wildfly-feature-pack -->
+		<dependency>
+		    <groupId>org.wildfly</groupId>
+		    <artifactId>wildfly-feature-pack</artifactId>
+		    <version>10.0.0.CR5</version>
+		    <type>pom</type>
+		    <scope>provided</scope>
+		</dependency>
+		
+		<!--31 CVE-2016-6798 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-6798 -->		
+		<!-- https://mvnrepository.com/artifact/org.apache.sling/org.apache.sling.xss -->
+		<dependency>
+		    <groupId>org.apache.sling</groupId>
+		    <artifactId>org.apache.sling.xss</artifactId>
+		    <version>1.0.8</version>
+		    <scope>provided</scope>
+		</dependency>
+
+		<!--32 CVE-2017-15692 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15692 -->
+		<!-- https://mvnrepository.com/artifact/org.apache.geode/geode-modules-tomcat7 -->
+		<dependency>
+		    <groupId>org.apache.geode</groupId>
+		    <artifactId>geode-modules-tomcat7</artifactId>
+		    <version>1.2.1</version>
+		</dependency>
+
+		<!--33 CVE-2017-4992 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-4992 -->
+		<!-- https://mvnrepository.com/artifact/org.cloudfoundry/cloudfoundry-client -->
+		<dependency>
+		    <groupId>org.cloudfoundry</groupId>
+		    <artifactId>cloudfoundry-client</artifactId>
+		    <version>3.6.0.RELEASE</version>
+		</dependency>
+
+		<!--34 CVE-2018-1000176 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000176 -->
+		<!--  how to add https://plugins.jenkins.io/email-ext ?-->
+		<!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-war -->
+		<dependency>
+		    <groupId>org.jenkins-ci.main</groupId>
+		    <artifactId>jenkins-war</artifactId>
+		    <version>2.73</version>
+		    <scope>test</scope>
+		</dependency>
+
+	<!--35 CVE-2018-1259 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1259 -->
+	<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons -->
+	<dependency>
+	    <groupId>org.springframework.data</groupId>
+	    <artifactId>spring-data-commons</artifactId>
+	    <version>1.13.8.RELEASE</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.xmlbeam/xmlprojector -->
+	<dependency>
+	    <groupId>org.xmlbeam</groupId>
+	    <artifactId>xmlprojector</artifactId>
+	    <version>1.4.14</version>
+	</dependency>
+
+	<!--36 CVE-2018-13864 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-13864 -->
+	<!-- https://mvnrepository.com/artifact/com.typesafe.play/play -->
+	<dependency>
+	    <groupId>com.typesafe.play</groupId>
+	    <artifactId>play_2.12</artifactId>
+	    <version>2.6.14</version>
+	</dependency>
+
+	<!--38 CVE-2017-17485 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17485 -->
+	<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+	<dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.8.10</version>
+	</dependency>
+
+	<!--39 CVE-2017-2666 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-2666 -->	
+	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-servlet -->
+	<dependency>
+	    <groupId>io.undertow</groupId>
+	    <artifactId>undertow-servlet</artifactId>
+	    <version>1.4.21.Final</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.undertow/undertow-core -->
+	<dependency>
+	    <groupId>io.undertow</groupId>
+	    <artifactId>undertow-core</artifactId>
+	    <version>1.4.21.Final</version>
+	</dependency>
+	
+    <!--42 CVE-2017-8039 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8039 -->	
+	<!-- https://mvnrepository.com/artifact/org.springframework.webflow/spring-webflow -->
+	<dependency>
+	    <groupId>org.springframework.webflow</groupId>
+	    <artifactId>spring-webflow</artifactId>
+	    <version>2.4.5.RELEASE</version>
+	</dependency>
+
+    <!--43 CVE-2018-1000531 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000531 -->
+    <!-- https://mvnrepository.com/artifact/com.inversoft/prime-jwt -->
+	<dependency>
+	    <groupId>com.inversoft</groupId>
+	    <artifactId>prime-jwt</artifactId>
+	    <version>1.3.0</version>
+	</dependency>
+    
 	</dependencies>
 </project>
