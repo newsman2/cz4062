@@ -103,4 +103,29 @@
             <version>4.3.0</version>
         </dependency>
     </dependencies>
+    
+    <!--14 CVE-2014-1506 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-1506 -->
+    <!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
+    <dependency>
+        <groupId>com.atlassian.browsers</groupId>
+        <artifactId>firefox</artifactId>
+        <version>23.0.1</version>
+    </dependency>
+       
+    <!--15 CVE-2014-3577 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3577 -->
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpclient</artifactId>
+        <version>4.3.4</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpasyncclient -->
+    <dependency>
+        <groupId>org.apache.httpcomponents</groupId>
+        <artifactId>httpasyncclient</artifactId>
+        <version>4.0.1</version>
+    </dependency>
+    
+    
+    
 </project>
