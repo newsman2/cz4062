@@ -47,12 +47,14 @@
         
         <!--4 CVE-2010-1157 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2010-1157 -->
         <!--19 CVE-2016-0714 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-0714 -->
-        <!-- https://mvnrepository.com/artifact/org.apache.tomcat/juli -->
-        <dependency>
-            <groupId>org.apache.tomcat</groupId>
-            <artifactId>juli</artifactId>
-            <version>6.0.18</version>
-        </dependency>
+        <!--24 CVE-2008-1947 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2008-1947 -->	
+		<!-- https://mvnrepository.com/artifact/org.apache.tomcat/catalina -->
+		<dependency>
+		    <groupId>org.apache.tomcat</groupId>
+		    <artifactId>catalina</artifactId>
+		    <version>6.0.13</version>
+		    <scope>provided</scope>
+		</dependency>
         
         <!--5 CVE-2011-2087 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-2087 -->
         <!--9 CVE-2013-2115 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2115 -->
@@ -71,8 +73,9 @@
             <artifactId>cxf-rt-frontend-jaxws</artifactId>
             <version>2.4.5</version>
         </dependency>
-        
+             
         <!--13 CVE-2014-0109 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-0109 -->
+        <!--26 CVE-2012-5575 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5575-->
         <!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
         <dependency>
             <groupId>org.apache.cxf</groupId>
@@ -152,5 +155,37 @@
 	    <version>2.6.2</version>
 	</dependency>
     
-    
+     <!--22 CVE-2016-7046 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-7046 -->    
+     <!-- https://mvnrepository.com/artifact/jboss/jboss-j2ee -->
+	<dependency>
+	    <groupId>jboss</groupId>
+	    <artifactId>jboss-j2ee</artifactId>
+	    <version>4.2.2.GA</version>
+	    <scope>provided</scope>
+	</dependency>
+
+    <!--23 CVE-2017-1000208 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-1000208 -->	
+	<!-- https://mvnrepository.com/artifact/io.swagger/swagger-parser -->
+	<dependency>
+	    <groupId>io.swagger</groupId>
+	    <artifactId>swagger-parser</artifactId>
+	    <version>1.0.27</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/io.swagger/swagger-codegen -->
+	<dependency>
+	    <groupId>io.swagger</groupId>
+	    <artifactId>swagger-codegen</artifactId>
+	    <version>2.2.0</version>
+	</dependency>
+
+	<!--25 CVE-2011-1511 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1511 -->		
+	<!--  https://cxsecurity.com/issue/WLB-2011050049 --> 
+	<!-- https://mvnrepository.com/artifact/org.glassfish.main.admin/admin-cli -->
+	<dependency>
+	    <groupId>org.glassfish.main.admin</groupId>
+	    <artifactId>admin-cli</artifactId>
+	    <version>5.0</version>
+	</dependency>
+	
+ 
 </project>
