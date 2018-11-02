@@ -145,11 +145,13 @@
 		<!--21 CVE-2016-5298 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-5298 -->
 		<!--40 CVE-2017-5392 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-5392 -->
 		<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
+		<!--
 		<dependency>
 			<groupId>com.atlassian.browsers</groupId>
 			<artifactId>firefox</artifactId>
 			<version>23.0.1</version>
 		</dependency>
+		-->
 		<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
 		
 		<!--
