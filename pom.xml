@@ -151,11 +151,14 @@
 			<version>23.0.1</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.atlassian.browsers/firefox -->
+		
+		<!--
 		<dependency>
 			<groupId>com.atlassian.browsers</groupId>
 			<artifactId>firefox</artifactId>
 			<version>44.0</version>
 		</dependency>
+		-->
 
 		<!--15 CVE-2014-3577 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3577 -->
 		<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
@@ -265,12 +268,15 @@
 		<!--34 CVE-2018-1000176 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1000176 -->
 		<!--  how to add https://plugins.jenkins.io/email-ext ?-->
 		<!-- https://mvnrepository.com/artifact/org.jenkins-ci.main/jenkins-war -->
+		
+		<!--
 		<dependency>
 		    <groupId>org.jenkins-ci.main</groupId>
 		    <artifactId>jenkins-war</artifactId>
 		    <version>2.73</version>
 		    <scope>test</scope>
 		</dependency>
+		-->
 
 	<!--35 CVE-2018-1259 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1259 -->
 	<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-commons -->
