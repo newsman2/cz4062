@@ -117,11 +117,13 @@
 
 		<!--7 CVE-2012-5812 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2012-5812 -->
 		<!-- https://mvnrepository.com/artifact/ch.acra/acra -->
-		<dependency>
+		
+		<!-- the error dependency -->
+		<!--<dependency>
 			<groupId>ch.acra</groupId>
 			<artifactId>acra</artifactId>
 			<version>4.8.2</version>
-		</dependency>
+		</dependency>-->
 
 		<!--Java SE/RE issues -->
 		<!--8 CVE-2013-0443 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-0443 -->
